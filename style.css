@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.navRight > a {
+  margin-left: 20px;
+  color: white;
+}
+
+.navLeft {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.container2 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+.column1 {
+  background-color: red;
+}
+
+.column2 {
+  background-color: rgb(54, 139, 209);
+}
+
+.column3 {
+  background-color: rgb(221, 255, 70);
+}
+
+.chess-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 350px;
+}
+
+.chess-container > div {
+  width: 50px;
+  height: 50px;
+}
+.chess-container > div:nth-child(odd) {
+  background-color: rgb(167, 27, 27);
+}
+
+.chess-container > div:nth-child(even) {
+  background-color: rgb(20, 1, 1);
+}
